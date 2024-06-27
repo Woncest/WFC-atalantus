@@ -15,7 +15,7 @@ C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-61413
+54239
 Successfully changed project path to: C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [169148] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 1587214242 [EditorId] 1587214242 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [196548] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3966560643 [EditorId] 3966560643 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [169148] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 1587214242 [EditorId] 1587214242 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [196548] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3966560643 [EditorId] 3966560643 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,45 +70,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006616 seconds.
-- Loaded All Assemblies, in  0.203 seconds
+Registered in 0.006686 seconds.
+- Loaded All Assemblies, in  0.198 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.142 seconds
-Domain Reload Profiling: 344ms
-	BeginReloadAssembly (62ms)
+- Finished resetting the current domain, in  0.137 seconds
+Domain Reload Profiling: 334ms
+	BeginReloadAssembly (63ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (19ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (77ms)
-		LoadAssemblies (61ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (72ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (76ms)
-			TypeCache.Refresh (75ms)
-				TypeCache.ScanAssembly (68ms)
+		AnalyzeDomain (71ms)
+			TypeCache.Refresh (70ms)
+				TypeCache.ScanAssembly (63ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (142ms)
+	FinalizeReload (137ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (112ms)
+		SetupLoadedEditorAssemblies (109ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadAttributes (75ms)
 			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 344ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.307 seconds
-Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.296 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,47 +127,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.291 seconds
-Domain Reload Profiling: 596ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.295 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (88ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (14ms)
 	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (157ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (63ms)
-			TypeCache.Refresh (56ms)
-				TypeCache.ScanAssembly (46ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (49ms)
+				TypeCache.ScanAssembly (40ms)
 			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (291ms)
+	FinalizeReload (295ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (219ms)
+		SetupLoadedEditorAssemblies (218ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (30ms)
 			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (57.7 KB). Loaded Objects now: 2373.
+Unloading 39 unused Assets / (57.2 KB). Loaded Objects now: 2373.
 Memory consumption went from 96.2 MB to 96.2 MB.
-Total: 1.993100 ms (FindLiveObjects: 0.106800 ms CreateObjectMapping: 0.029000 ms MarkObjects: 1.784800 ms  DeleteObjects: 0.072200 ms)
+Total: 2.074300 ms (FindLiveObjects: 0.090200 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.884000 ms  DeleteObjects: 0.066800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -184,94 +184,657 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 982776.961610 seconds.
-  path: Assets/Models/Extra/innerCorner.fbx
-  artifactKey: Guid(3796348c0e09beb4cb3a2ddcea6c3fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Extra/innerCorner.fbx using Guid(3796348c0e09beb4cb3a2ddcea6c3fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f4d5c78d68d8467831577a7f8402d3') in 0.088892 seconds
+  Time since last request: 1061037.615793 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
+  artifactKey: Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee3ec78bdfbcd037dbc35b2f5a20b1') in 0.063903 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 1.301419 seconds.
-  path: Assets/Models/Other/flag_green.fbx
-  artifactKey: Guid(98dbf1a16c3eff1499db49b52991a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Models/Other/flag_green.fbx using Guid(98dbf1a16c3eff1499db49b52991a0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d11287253105cebeb804981da2433d1') in 0.025029 seconds
+  Time since last request: 64.941819 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
+  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6bdd128e0b2f62e8fc8a974475513a') in 0.007185 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 15
 ========================================================================
 Received Import Request.
-  Time since last request: 376.217684 seconds.
-  path: Assets/Modules/Basic
-  artifactKey: Guid(a611c3edb0d0ce742b4cfb0413eaa8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic using Guid(a611c3edb0d0ce742b4cfb0413eaa8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04aca930e233669f056124a16e37f3b') in 0.000414 seconds
+  Time since last request: 0.004949 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0019e939e1b181f598ca743090bd2e4a') in 0.007476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 30.046229 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
+  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f270df9f7e9963a08c22748a7683c7') in 0.007583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 18.452791 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e465eaa9f3e41605a29842a0e4f826b') in 0.006742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.005993 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5a218aa2e2f4ae13be3db286726948') in 0.004150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 3.491960 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9f0b1a728888f0582e2b4b22d4138c') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 103.324329 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a530789c7ab0330defa6ee0c1a58af54') in 0.005044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
+  artifactKey: Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45a4616e7dad00a7baace400ba8a54') in 0.003610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 52.733656 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de476309d159d334d47999e169d35158') in 0.007647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4228208cbd6f31a536e3ea943ee306ae') in 0.006728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.193528 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c122e77fc7fe3536b86208f4b6a75eb') in 0.007686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccce41f3d1d9cad3d4d6bfa2b6eb3c18') in 0.006057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.398800 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8c613cab6ef2407b763c0f961be38f') in 0.004034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546ea6f56fa6edfbbb34594b808a8d38') in 0.003605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 14.320764 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecf3b26c49cf3b3ae5f87077a33951b') in 0.004462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de03572f4602ad2d27a3d287de0de78') in 0.003390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 7.353507 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
+  artifactKey: Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986243b5e9701d9f185f7dfcb4b397f8') in 0.004870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.424226 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f001ba4a6038937fdff3a0b1844f736f') in 0.004483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.458037 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
+  artifactKey: Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ceba8060ae5f452381a2c64d695e0') in 0.004180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 22.428105 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
+  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39590e1f4943771e1fae181eb7508621') in 0.005543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24be1d99373c9ddecade1d246c92b0ec') in 0.004348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
+  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94304c16e0a775780fca9cdc072cc3de') in 0.003564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
+  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb09182548b42076c95795daeda0515') in 0.004128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.828351 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
+  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ddddc969c54af47b17dcf15cab752') in 0.005575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8785d66126f77908bf72bdfd2b29ffd5') in 0.004142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
+  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92836c1a363143a2390dffee77f0cfac') in 0.003351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
+  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb633034e31a0b98817f0a9bcedfa2b2') in 0.003810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.465592 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
+  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3a3ee3c23ef3dcce31045402f2c0a5') in 0.004212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.010010 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
+  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927c8a3fcfced419833f07d513ff8903') in 0.004634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac620a938fb6a34a476b0693aeb6557a') in 0.003951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
+  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde3c6aaaf84af4593490e40a7115c5f') in 0.003637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
+  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3d45542665a3e722996b09a3a6b5d2') in 0.003612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 86.786181 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 1.prefab
+  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 1.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a267d2936e3fbced5226b40791bf3') in 0.007051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 26.913657 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab
+  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0420646c2c7d343cfd0ef8a49b332537') in 0.007579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 42.176209 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab
+  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae63b6545b474f64eb95a51f22bb50f') in 0.004913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 12.068767 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2) 1.prefab
+  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2) 1.prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546dbcd5c6a60973e88eb1b6708174b') in 0.007965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 27.703080 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3) 1.prefab
+  artifactKey: Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3) 1.prefab using Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e96d6ea50e122748bf5e92ac0ec16a') in 0.007253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 33.956480 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
+  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8ad641cbdfc49f4004444ef52a4467') in 0.004479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 3.258047 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fb6198d45c11b38bfc4e621006facd') in 0.004223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 2.895093 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
+  artifactKey: Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa22447587acded3f374664613fe0d3') in 0.004318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 3.337045 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
+  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19233ac78713cab2cfb855a43fa678c9') in 0.007662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 30.729610 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
+  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c73b2146023a1cc25ec0a50680ce46c') in 0.007250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 102.898687 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
+  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03a7a743a630f9bf285747454ee98e7') in 0.007522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 21.155553 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
+  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfaedefeb10bd7d43fcd3f5401b6348') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 20.322065 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b0d6631aa46e95292bc5736fae2a75') in 0.007311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 24.193188 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
+  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca677b06531e0830281673de3f957fe') in 0.007245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 19.836407 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
+  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d38ce003f0b6762140717251a8b7d7f') in 0.007511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 18.507139 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
+  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7508f0dbf91e1a8cee0592a4e5c7da') in 0.006947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 18.749418 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
+  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e92c95ee57c61c5a2d1486df989522') in 0.008389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 18.569612 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
+  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0b2239ed202a2482be9b53feeb4e9') in 0.006747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 9.862766 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
+  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879110355dcac9d4d922fc2b4c3f7363') in 0.004543 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 5.423262 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
+  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131b89d3e890fb30a2bc240a215bbc1') in 0.004047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 8.469779 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
+  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b337a8370de761f494b1b6e67396f1ef') in 0.004237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 4.225650 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
+  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960e4b0b2adfd6ea79a5bc03a7f639f') in 0.006251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 5.434994 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
+  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878de73190b072ef171100f5b5412e98') in 0.004136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 5.642193 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
+  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051b9a7d638b518e37551ee19d4d067') in 0.004309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 13.231867 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
+  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294c6b67467b69b39d5b1565fa0d932') in 0.006646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 4.825322 seconds.
+  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
+  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d49a5b7fee607027f67950e378bfdd2') in 0.004641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 215.127624 seconds.
+  path: Assets/Prefabs/Modules/Extra
+  artifactKey: Guid(9fa37c9e3e1b4934f92de3de83e38a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Modules/Extra using Guid(9fa37c9e3e1b4934f92de3de83e38a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb36331873f7254ef922065547e358') in 0.009385 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.080807 seconds.
-  path: Assets/Modules/Basic/block.asset
-  artifactKey: Guid(ccd7f81dc004a004cb0c9623254c00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/block.asset using Guid(ccd7f81dc004a004cb0c9623254c00bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ea48f0d2a3a6804d43f48951614bfe') in 0.001726 seconds
+  Time since last request: 599.443478 seconds.
+  path: Assets/Modules/Basic/corner 1.asset
+  artifactKey: Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Basic/corner 1.asset using Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15791251bd59aecb2afe0d79ec7dcd2') in 0.000930 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004571 seconds.
-  path: Assets/Modules/Basic/corner 90.asset
-  artifactKey: Guid(15a6e2c0294ba6545a5d7b4461989d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/corner 90.asset using Guid(15a6e2c0294ba6545a5d7b4461989d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fbbe769a08a357012231236db0ff6b') in 0.001070 seconds
+  Time since last request: 255.165549 seconds.
+  path: Assets/Modules/Basic/Street_3Way_2.asset
+  artifactKey: Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Basic/Street_3Way_2.asset using Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8313099fb783e2fdbd4b1dc499cda9') in 0.001403 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003680 seconds.
-  path: Assets/Modules/Basic/end 180.asset
-  artifactKey: Guid(a26709b40ca22014bb650e36eb05ea05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/end 180.asset using Guid(a26709b40ca22014bb650e36eb05ea05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96deec27d34c9b03d8836eebc68c87ea') in 0.001155 seconds
+  Time since last request: 5.467877 seconds.
+  path: Assets/Modules/Basic/Street_3Way_2 1.asset
+  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Basic/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4636c2beab3490ccc19f27cbd1c35ed1') in 0.001178 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Modules/Basic/side 90.asset
-  artifactKey: Guid(4b1141662c0a1c14fb5d17286fc724cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/side 90.asset using Guid(4b1141662c0a1c14fb5d17286fc724cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1ce0e061cb3e3a3f227f32480cbce9') in 0.001037 seconds
+  Time since last request: 1.591593 seconds.
+  path: Assets/Modules/Basic/Street_3Way_2 2.asset
+  artifactKey: Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Basic/Street_3Way_2 2.asset using Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15706ef7860ec8224c0c365a8ea53ff0') in 0.001119 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000005 seconds.
-  path: Assets/Modules/Basic/open.asset
-  artifactKey: Guid(81ce795915529a545b30c384ccba5ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/open.asset using Guid(81ce795915529a545b30c384ccba5ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170d7d43ef886ae13be69dcaf5d3a290') in 0.001059 seconds
+  Time since last request: 0.550845 seconds.
+  path: Assets/Modules/Basic/Street_3Way_2 3.asset
+  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Basic/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc0f36a404a0fa36154c037e30202b') in 0.001132 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Modules/Basic/corner 270.asset
-  artifactKey: Guid(7b03e37b1ae16044e90037f2cd32c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/corner 270.asset using Guid(7b03e37b1ae16044e90037f2cd32c3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713f441b3c6ff62bf1df890a9ca022c6') in 0.000877 seconds
+  Time since last request: 76.551030 seconds.
+  path: Assets/Modules/Streets/Street_3Way_2 1.asset
+  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04138ced39a782114aaef764a15bb77') in 0.001272 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000005 seconds.
-  path: Assets/Modules/Basic/side 180.asset
-  artifactKey: Guid(162aab4dc6f8e114590b25d696387d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/side 180.asset using Guid(162aab4dc6f8e114590b25d696387d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45387b3715a5986c67dfc228d49e5c02') in 0.001195 seconds
+  Time since last request: 0.000010 seconds.
+  path: Assets/Modules/Streets/Street_3Way_2 3.asset
+  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0c5ea9a5e1bb4fae28fd4df589b5d') in 0.000999 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000005 seconds.
-  path: Assets/Modules/Basic/straight.asset
-  artifactKey: Guid(af7e24f3778270b4bb17292d47a7ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/straight.asset using Guid(af7e24f3778270b4bb17292d47a7ff48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9ac1514e3ed1815a4d607da513743d2') in 0.001079 seconds
+  Time since last request: 8.581291 seconds.
+  path: Assets/Modules/Streets/New Module.asset
+  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/New Module.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f099e3bba9b6bd54e0365abd54affc27') in 0.000650 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.348597 seconds.
+  path: Assets/Modules/Streets/Street_4Way_2.asset
+  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_4Way_2.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840d41b3a38163b05b4891dbefe4043f') in 0.000601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.237090 seconds.
+  path: Assets/Modules/Streets/New Module.asset
+  artifactKey: Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/New Module.asset using Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d5a4fcc0e96c923de97ebd0d0bb9b4') in 0.000648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.506157 seconds.
+  path: Assets/Modules/Streets/Street_Empty.asset
+  artifactKey: Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Empty.asset using Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86977e9470942d0eb4398b380ebd8cdf') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.378318 seconds.
+  path: Assets/Modules/Streets/New Module.asset
+  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/New Module.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756dfeb89bbaf01d145b85e92e48bc5') in 0.000755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.585588 seconds.
+  path: Assets/Modules/Streets/Street_Straight.asset
+  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Straight.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1476bdcd3197d2add6730ac766214b7') in 0.000710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.642296 seconds.
+  path: Assets/Modules/Streets/Street_4Way_2.asset
+  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_4Way_2.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72459bdde3dcbd5bd4c913ec21c72575') in 0.001324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Modules/Streets/Street_Straight.asset
+  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Straight.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840127711c42aeccca3918dde1d79112') in 0.000978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 70.716821 seconds.
+  path: Assets/Modules/Streets/New Module.asset
+  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/New Module.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd168306e17e5891c67874b72066bc9f9') in 0.000740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.906399 seconds.
+  path: Assets/Modules/Streets/Street_Curve.asset
+  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf5cc1df8ffcebdf8595e8650dc6cec') in 0.000656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.013933 seconds.
+  path: Assets/Modules/Streets/Street_3Way_2 1.asset
+  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77e668c64dc997c450f79301f65b4f') in 0.001258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.004049 seconds.
+  path: Assets/Modules/Streets/Street_Curve.asset
+  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1760dcf8f01f364dbe83285533c5f48c') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Modules/Streets/Street_3Way_2 3.asset
+  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd808eba3b5e583de7074132fdf9921bc') in 0.000852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.384684 seconds.
+  path: Assets/Modules/Streets/Street_Curve 2.asset
+  artifactKey: Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Curve 2.asset using Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feae2d6859025d01266616b8d3e8a8b') in 0.000691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.464525 seconds.
+  path: Assets/Modules/Streets/Street_Curve 3.asset
+  artifactKey: Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/Street_Curve 3.asset using Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a14144a8f2aef4b6c46bb1381a92b75') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
