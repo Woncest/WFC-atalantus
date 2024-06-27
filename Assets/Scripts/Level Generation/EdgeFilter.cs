@@ -41,6 +41,7 @@
         public bool CheckModule(Module module)
         {
             var edge = (_edgeDirection + 2) % 4;
+            //TODO I think you can instead search through a list here
             var match = module.edgeConnections[edge] == _filterType;
 
             return _isInclusive ? !match : match;
