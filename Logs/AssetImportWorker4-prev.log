@@ -15,7 +15,7 @@ C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-54239
+61288
 Successfully changed project path to: C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/ffiessinger/Documents/GitHub/WFC-atalantus
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [196548] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3966560643 [EditorId] 3966560643 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [227676] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3367599373 [EditorId] 3367599373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [196548] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3966560643 [EditorId] 3966560643 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [227676] Host "[IP] 192.168.178.94 [Port] 0 [Flags] 2 [Guid] 3367599373 [EditorId] 3367599373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N55C6FP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 5.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56844
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006686 seconds.
-- Loaded All Assemblies, in  0.198 seconds
+Registered in 0.006929 seconds.
+- Loaded All Assemblies, in  0.206 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.137 seconds
-Domain Reload Profiling: 334ms
-	BeginReloadAssembly (63ms)
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 362ms
+	BeginReloadAssembly (64ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (20ms)
+	RebuildCommonClasses (19ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (35ms)
-	LoadAllAssembliesAndSetupDomain (72ms)
-		LoadAssemblies (62ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (63ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (71ms)
-			TypeCache.Refresh (70ms)
-				TypeCache.ScanAssembly (63ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (70ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (137ms)
+	FinalizeReload (156ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (109ms)
+		SetupLoadedEditorAssemblies (124ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (75ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,8 +118,8 @@ Domain Reload Profiling: 334ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.296 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 2.52 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -127,793 +127,121 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.295 seconds
-Domain Reload Profiling: 589ms
-	BeginReloadAssembly (88ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (19ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (158ms)
-		LoadAssemblies (149ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (57ms)
-			TypeCache.Refresh (49ms)
-				TypeCache.ScanAssembly (40ms)
-			ScanForSourceGeneratedMonoScriptInfo (6ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (295ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (218ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (30ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (57.2 KB). Loaded Objects now: 2373.
-Memory consumption went from 96.2 MB to 96.2 MB.
-Total: 2.074300 ms (FindLiveObjects: 0.090200 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.884000 ms  DeleteObjects: 0.066800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1061037.615793 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
-  artifactKey: Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee3ec78bdfbcd037dbc35b2f5a20b1') in 0.063903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 64.941819 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
-  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6bdd128e0b2f62e8fc8a974475513a') in 0.007185 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.004949 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0019e939e1b181f598ca743090bd2e4a') in 0.007476 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 30.046229 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
-  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f270df9f7e9963a08c22748a7683c7') in 0.007583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 18.452791 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e465eaa9f3e41605a29842a0e4f826b') in 0.006742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.005993 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5a218aa2e2f4ae13be3db286726948') in 0.004150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 3.491960 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9f0b1a728888f0582e2b4b22d4138c') in 0.004078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 103.324329 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a530789c7ab0330defa6ee0c1a58af54') in 0.005044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
-  artifactKey: Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45a4616e7dad00a7baace400ba8a54') in 0.003610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 52.733656 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de476309d159d334d47999e169d35158') in 0.007647 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4228208cbd6f31a536e3ea943ee306ae') in 0.006728 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 3.193528 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c122e77fc7fe3536b86208f4b6a75eb') in 0.007686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccce41f3d1d9cad3d4d6bfa2b6eb3c18') in 0.006057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 2.398800 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8c613cab6ef2407b763c0f961be38f') in 0.004034 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546ea6f56fa6edfbbb34594b808a8d38') in 0.003605 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 14.320764 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(bbe05d4f5c8205c4a84ed64c4e99140e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecf3b26c49cf3b3ae5f87077a33951b') in 0.004462 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de03572f4602ad2d27a3d287de0de78') in 0.003390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 7.353507 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
-  artifactKey: Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(2e781163132d3ad4abc02b638a3be658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986243b5e9701d9f185f7dfcb4b397f8') in 0.004870 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 3.424226 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(9cc7f20ce25b84c49948ff74f1562bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f001ba4a6038937fdff3a0b1844f736f') in 0.004483 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 3.458037 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
-  artifactKey: Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(76a696c51df2220438f4143e1496a828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b5ceba8060ae5f452381a2c64d695e0') in 0.004180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 22.428105 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39590e1f4943771e1fae181eb7508621') in 0.005543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24be1d99373c9ddecade1d246c92b0ec') in 0.004348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
-  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94304c16e0a775780fca9cdc072cc3de') in 0.003564 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
-  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb09182548b42076c95795daeda0515') in 0.004128 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.828351 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2ddddc969c54af47b17dcf15cab752') in 0.005575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8785d66126f77908bf72bdfd2b29ffd5') in 0.004142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92836c1a363143a2390dffee77f0cfac') in 0.003351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
-  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb633034e31a0b98817f0a9bcedfa2b2') in 0.003810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.465592 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3a3ee3c23ef3dcce31045402f2c0a5') in 0.004212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 1.010010 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927c8a3fcfced419833f07d513ff8903') in 0.004634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac620a938fb6a34a476b0693aeb6557a') in 0.003951 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde3c6aaaf84af4593490e40a7115c5f') in 0.003637 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
-  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3d45542665a3e722996b09a3a6b5d2') in 0.003612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 86.786181 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 1.prefab
-  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 1.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588a267d2936e3fbced5226b40791bf3') in 0.007051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 26.913657 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab
-  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0420646c2c7d343cfd0ef8a49b332537') in 0.007579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 23
-========================================================================
-Received Import Request.
-  Time since last request: 42.176209 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab
-  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1) 1.prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae63b6545b474f64eb95a51f22bb50f') in 0.004913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 12.068767 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2) 1.prefab
-  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2) 1.prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546dbcd5c6a60973e88eb1b6708174b') in 0.007965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 27.703080 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3) 1.prefab
-  artifactKey: Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3) 1.prefab using Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e96d6ea50e122748bf5e92ac0ec16a') in 0.007253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 33.956480 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab
-  artifactKey: Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (1).prefab using Guid(638d9148398c622428ad3508f995fe1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8ad641cbdfc49f4004444ef52a4467') in 0.004479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 3.258047 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fb6198d45c11b38bfc4e621006facd') in 0.004223 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.895093 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab
-  artifactKey: Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (3).prefab using Guid(283f86edb9c342548bafe0391c11a6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa22447587acded3f374664613fe0d3') in 0.004318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 3.337045 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19233ac78713cab2cfb855a43fa678c9') in 0.007662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 30.729610 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c73b2146023a1cc25ec0a50680ce46c') in 0.007250 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 102.898687 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
-  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03a7a743a630f9bf285747454ee98e7') in 0.007522 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 21.155553 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
-  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cfaedefeb10bd7d43fcd3f5401b6348') in 0.007077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 20.322065 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b0d6631aa46e95292bc5736fae2a75') in 0.007311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 24.193188 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
-  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca677b06531e0830281673de3f957fe') in 0.007245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 19.836407 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
-  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d38ce003f0b6762140717251a8b7d7f') in 0.007511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 18.507139 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7508f0dbf91e1a8cee0592a4e5c7da') in 0.006947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 18.749418 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
-  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e92c95ee57c61c5a2d1486df989522') in 0.008389 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 18.569612 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab
-  artifactKey: Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2 (2).prefab using Guid(4378bc394ebada949a794e11593434fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da0b2239ed202a2482be9b53feeb4e9') in 0.006747 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 9.862766 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879110355dcac9d4d922fc2b4c3f7363') in 0.004543 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 5.423262 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
-  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3131b89d3e890fb30a2bc240a215bbc1') in 0.004047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 8.469779 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
-  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b337a8370de761f494b1b6e67396f1ef') in 0.004237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 4.225650 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b960e4b0b2adfd6ea79a5bc03a7f639f') in 0.006251 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 5.434994 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
-  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878de73190b072ef171100f5b5412e98') in 0.004136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 5.642193 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
-  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6051b9a7d638b518e37551ee19d4d067') in 0.004309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 13.231867 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f294c6b67467b69b39d5b1565fa0d932') in 0.006646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 4.825322 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
-  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d49a5b7fee607027f67950e378bfdd2') in 0.004641 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 215.127624 seconds.
-  path: Assets/Prefabs/Modules/Extra
-  artifactKey: Guid(9fa37c9e3e1b4934f92de3de83e38a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Extra using Guid(9fa37c9e3e1b4934f92de3de83e38a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acb36331873f7254ef922065547e358') in 0.009385 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 599.443478 seconds.
-  path: Assets/Modules/Basic/corner 1.asset
-  artifactKey: Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/corner 1.asset using Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15791251bd59aecb2afe0d79ec7dcd2') in 0.000930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 255.165549 seconds.
-  path: Assets/Modules/Basic/Street_3Way_2.asset
-  artifactKey: Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/Street_3Way_2.asset using Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8313099fb783e2fdbd4b1dc499cda9') in 0.001403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 5.467877 seconds.
-  path: Assets/Modules/Basic/Street_3Way_2 1.asset
-  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4636c2beab3490ccc19f27cbd1c35ed1') in 0.001178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 1.591593 seconds.
-  path: Assets/Modules/Basic/Street_3Way_2 2.asset
-  artifactKey: Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/Street_3Way_2 2.asset using Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15706ef7860ec8224c0c365a8ea53ff0') in 0.001119 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.550845 seconds.
-  path: Assets/Modules/Basic/Street_3Way_2 3.asset
-  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Basic/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dc0f36a404a0fa36154c037e30202b') in 0.001132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 76.551030 seconds.
-  path: Assets/Modules/Streets/Street_3Way_2 1.asset
-  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04138ced39a782114aaef764a15bb77') in 0.001272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Modules/Streets/Street_3Way_2 3.asset
-  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b0c5ea9a5e1bb4fae28fd4df589b5d') in 0.000999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 8.581291 seconds.
-  path: Assets/Modules/Streets/New Module.asset
-  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/New Module.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f099e3bba9b6bd54e0365abd54affc27') in 0.000650 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 7.348597 seconds.
-  path: Assets/Modules/Streets/Street_4Way_2.asset
-  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_4Way_2.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840d41b3a38163b05b4891dbefe4043f') in 0.000601 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 29.237090 seconds.
-  path: Assets/Modules/Streets/New Module.asset
-  artifactKey: Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/New Module.asset using Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d5a4fcc0e96c923de97ebd0d0bb9b4') in 0.000648 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.506157 seconds.
-  path: Assets/Modules/Streets/Street_Empty.asset
-  artifactKey: Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Empty.asset using Guid(0527a94588b0d3946b9e5db5de2ce34a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86977e9470942d0eb4398b380ebd8cdf') in 0.000614 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 27.378318 seconds.
-  path: Assets/Modules/Streets/New Module.asset
-  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/New Module.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0756dfeb89bbaf01d145b85e92e48bc5') in 0.000755 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.585588 seconds.
-  path: Assets/Modules/Streets/Street_Straight.asset
-  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Straight.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1476bdcd3197d2add6730ac766214b7') in 0.000710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 22.642296 seconds.
-  path: Assets/Modules/Streets/Street_4Way_2.asset
-  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_4Way_2.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72459bdde3dcbd5bd4c913ec21c72575') in 0.001324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Modules/Streets/Street_Straight.asset
-  artifactKey: Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Straight.asset using Guid(6d4e5da596a003c45a69cc855c7d3782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840127711c42aeccca3918dde1d79112') in 0.000978 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 70.716821 seconds.
-  path: Assets/Modules/Streets/New Module.asset
-  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/New Module.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd168306e17e5891c67874b72066bc9f9') in 0.000740 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.906399 seconds.
-  path: Assets/Modules/Streets/Street_Curve.asset
-  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf5cc1df8ffcebdf8595e8650dc6cec') in 0.000656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 15.013933 seconds.
-  path: Assets/Modules/Streets/Street_3Way_2 1.asset
-  artifactKey: Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_3Way_2 1.asset using Guid(ff62d2c152d90f84ab6ef974cdd1781f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd77e668c64dc997c450f79301f65b4f') in 0.001258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.004049 seconds.
-  path: Assets/Modules/Streets/Street_Curve.asset
-  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1760dcf8f01f364dbe83285533c5f48c') in 0.000696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Modules/Streets/Street_3Way_2 3.asset
-  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd808eba3b5e583de7074132fdf9921bc') in 0.000852 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.384684 seconds.
-  path: Assets/Modules/Streets/Street_Curve 2.asset
-  artifactKey: Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve 2.asset using Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8feae2d6859025d01266616b8d3e8a8b') in 0.000691 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.464525 seconds.
-  path: Assets/Modules/Streets/Street_Curve 3.asset
-  artifactKey: Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve 3.asset using Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a14144a8f2aef4b6c46bb1381a92b75') in 0.000661 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 168.868078 seconds.
-  path: Assets/Modules/Streets/Street_Curve.asset
-  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56cabcf49a5505b56400148851de06d') in 0.001268 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Modules/Streets/Street_Curve 2.asset
-  artifactKey: Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve 2.asset using Guid(13934dd2fa1ebb44c9e62c98cf8172b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529e6a317a14fde3149128526692cfb3') in 0.000778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000005 seconds.
-  path: Assets/Modules/Streets/Street_Curve 3.asset
-  artifactKey: Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Modules/Streets/Street_Curve 3.asset using Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb4932ed21834c1e0687007225c3a44') in 0.000764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.239 seconds
-Refreshing native plugins compatible for Editor in 2.13 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.439 seconds
-Domain Reload Profiling: 676ms
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 631ms
 	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
+		CreateAndSetChildDomain (14ms)
 	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (102ms)
-		LoadAssemblies (144ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (5ms)
-			TypeCache.Refresh (3ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (52ms)
+				TypeCache.ScanAssembly (43ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (439ms)
+	FinalizeReload (313ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (232ms)
+		SetupLoadedEditorAssemblies (239ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (32ms)
-			ProcessInitializeOnLoadAttributes (167ms)
-			ProcessInitializeOnLoadMethodAttributes (22ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.60 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1907 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (57.7 KB). Loaded Objects now: 2373.
+Memory consumption went from 96.2 MB to 96.2 MB.
+Total: 2.471500 ms (FindLiveObjects: 0.474700 ms CreateObjectMapping: 0.036100 ms MarkObjects: 1.893200 ms  DeleteObjects: 0.066900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1126303.656862 seconds.
+  path: Assets/Modules/Streets/1 Border Space
+  artifactKey: Guid(7e09992c3b9c80449a0d542929fb739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space using Guid(7e09992c3b9c80449a0d542929fb739e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c94f96e0c53430952b5d9acf193ac75') in 0.001623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.266 seconds
+Refreshing native plugins compatible for Editor in 2.07 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 722ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (115ms)
+		LoadAssemblies (156ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (458ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (235ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.6 KB). Loaded Objects now: 2384.
-Memory consumption went from 101.2 MB to 101.2 MB.
-Total: 2.121600 ms (FindLiveObjects: 0.133100 ms CreateObjectMapping: 0.056500 ms MarkObjects: 1.898500 ms  DeleteObjects: 0.033000 ms)
+Unloading 28 unused Assets / (31.6 KB). Loaded Objects now: 2376.
+Memory consumption went from 97.1 MB to 97.1 MB.
+Total: 1.978900 ms (FindLiveObjects: 0.089800 ms CreateObjectMapping: 0.028900 ms MarkObjects: 1.830500 ms  DeleteObjects: 0.029300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -930,177 +258,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 180.805284 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e4cc28ecab72545942fac44f9b1de6') in 0.048789 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab
-  artifactKey: Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (2).prefab using Guid(664fb3a2b6cacf84185c82dbcafbab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a344ed47732fc1752e5790d2f6cd6465') in 0.006998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
-  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5723b4d34d8fab3ce543d5b3fb6f33') in 0.007166 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
-  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77adcf2ae4490f4859d3627e81787a79') in 0.006761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c919879b0882d0bfdfabd02c0d9395') in 0.006272 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab
-  artifactKey: Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight (1).prefab using Guid(feb8cc0082db3ac4bad3b2d275bef3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640cd478c7ed5e56ad12567d6e09c45') in 0.006096 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab
-  artifactKey: Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (3).prefab using Guid(676e45f86fb6bbe4c9aab38309d015cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a0038dd46c65a670f4efb37299f36a') in 0.006045 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 2.056766 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfaac229d30dc39c680521e0808c2fc4') in 0.008146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Empty.prefab
-  artifactKey: Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Empty.prefab using Guid(0cd16812c521dc64ba879ca92aace5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6f7e80e128194810ec1b54ba771aca') in 0.006168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve.prefab
-  artifactKey: Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve.prefab using Guid(2101457e8f245dc4c95942b58f628565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f4b4b3c5d6b409fe3d8cbbab6da4a') in 0.006387 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab
-  artifactKey: Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Curve (1).prefab using Guid(36cf15064bc421945894f252ba09d897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56282417ea39df6584ada8918e10d42') in 0.006329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180fb8536df6ba9594bb225d17a43564') in 0.007048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 1.528871 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab
-  artifactKey: Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_3Way_2.prefab using Guid(6f236a7daf4732f4ea2172142c9dc7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f8af7387067bc918541a340cf8696f') in 0.008035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_Straight.prefab
-  artifactKey: Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_Straight.prefab using Guid(1a6e2c1fd488c8749bb9d98b2c841ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd9f9f16df95b7b309c713d8ba6a31d') in 0.004277 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab
-  artifactKey: Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Street_4Way_2.prefab using Guid(991ece36b8eec914399dddc2e7474411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227a3f7a4f5ed96b5f17623d7203769b') in 0.006941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.254 seconds
-Refreshing native plugins compatible for Editor in 2.70 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.242 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.477 seconds
-Domain Reload Profiling: 729ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.458 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (94ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (19ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (18ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (154ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (5ms)
 			TypeCache.Refresh (3ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (477ms)
+	FinalizeReload (459ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (246ms)
+		SetupLoadedEditorAssemblies (250ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (37ms)
-			ProcessInitializeOnLoadAttributes (173ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.15 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2387.
-Memory consumption went from 103.2 MB to 103.1 MB.
-Total: 1.897400 ms (FindLiveObjects: 0.089600 ms CreateObjectMapping: 0.024500 ms MarkObjects: 1.754300 ms  DeleteObjects: 0.028600 ms)
+Unloading 1902 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (31.6 KB). Loaded Objects now: 2379.
+Memory consumption went from 99.3 MB to 99.3 MB.
+Total: 1.936600 ms (FindLiveObjects: 0.103400 ms CreateObjectMapping: 0.032100 ms MarkObjects: 1.774700 ms  DeleteObjects: 0.026100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1120,25 +328,25 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.244 seconds
-Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.246 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.467 seconds
-Domain Reload Profiling: 708ms
-	BeginReloadAssembly (92ms)
+- Finished resetting the current domain, in  0.443 seconds
+Domain Reload Profiling: 687ms
+	BeginReloadAssembly (91ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
+		CreateAndSetChildDomain (18ms)
 	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (19ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (20ms)
 	LoadAllAssembliesAndSetupDomain (106ms)
 		LoadAssemblies (149ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
@@ -1147,27 +355,27 @@ Domain Reload Profiling: 708ms
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (467ms)
+	FinalizeReload (443ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (240ms)
+		SetupLoadedEditorAssemblies (234ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (35ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.57 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1902 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2390.
-Memory consumption went from 105.3 MB to 105.3 MB.
-Total: 2.056500 ms (FindLiveObjects: 0.101300 ms CreateObjectMapping: 0.023900 ms MarkObjects: 1.897700 ms  DeleteObjects: 0.033100 ms)
+Unloading 28 unused Assets / (31.6 KB). Loaded Objects now: 2382.
+Memory consumption went from 101.3 MB to 101.2 MB.
+Total: 2.019100 ms (FindLiveObjects: 0.096600 ms CreateObjectMapping: 0.023600 ms MarkObjects: 1.866200 ms  DeleteObjects: 0.032300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1185,76 +393,341 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 867.913056 seconds.
-  path: Assets/Prefabs/Modules/Streets/Normal
-  artifactKey: Guid(f2e36c14c23e84a48ab9c97f1a512186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/Normal using Guid(f2e36c14c23e84a48ab9c97f1a512186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6843a150334d8281bd8e0640dfd60c4') in 0.001201 seconds
+  Time since last request: 543.120453 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_3Way_2.asset
+  artifactKey: Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_3Way_2.asset using Guid(c23bf9a6162684240912d74f495c1faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820e37437e2e1572997bdb5b01a8c015') in 0.007687 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 32.381276 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border
-  artifactKey: Guid(fd0ed2e6ff943a54fa42f02d48304fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border using Guid(fd0ed2e6ff943a54fa42f02d48304fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '948934232ee24ead377077c96b2db169') in 0.000302 seconds
+  Time since last request: 0.002095 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_4Way_2.asset
+  artifactKey: Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_4Way_2.asset using Guid(d2c4c2accc7bed64aa88630208ff2706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b87118fc4fdf67c42fc49aa3d16d8a') in 0.001187 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.172232 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_3Way_2.prefab
-  artifactKey: Guid(74909d8a83d0b554ab2bf6c33da78a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_3Way_2.prefab using Guid(74909d8a83d0b554ab2bf6c33da78a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16281b0cbd2a9af66f4db627d5a6688') in 0.049607 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (3).prefab
-  artifactKey: Guid(0651d63b3dc93ef4b9fca98999219447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (3).prefab using Guid(0651d63b3dc93ef4b9fca98999219447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a606d598147f498f31578e4380234a71') in 0.003638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve.prefab
-  artifactKey: Guid(8c7e018c6c922e547b69593c940a134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve.prefab using Guid(8c7e018c6c922e547b69593c940a134c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128a9ac96e3c009e8d921921ad842e4') in 0.004224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.000007 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_4Way_2.prefab
-  artifactKey: Guid(dcc14cbd1e3179944ad941708a8f59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_4Way_2.prefab using Guid(dcc14cbd1e3179944ad941708a8f59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea4da503c8bec4f5b60fad4566c8a00') in 0.004087 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000008 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Straight (1).prefab
-  artifactKey: Guid(098313ae90b8c5f42a4dd32481121e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Straight (1).prefab using Guid(098313ae90b8c5f42a4dd32481121e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '411200debabaf8533c4fb505bb1b2266') in 0.004286 seconds
+  path: Assets/Modules/Streets/1 Border Space/Street_Curve.asset
+  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a76b8e11d565524f6b51f21e70b5403') in 0.001157 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000005 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (1).prefab
-  artifactKey: Guid(5df97485543eaee419ebd26c5b697c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (1).prefab using Guid(5df97485543eaee419ebd26c5b697c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a31707d0493063ba00716c2eeecd006') in 0.003972 seconds
+  Time since last request: 0.000008 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_3Way_2 2.asset
+  artifactKey: Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_3Way_2 2.asset using Guid(59a41877f0f5ab24eac1653e5c67e89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ffb958d3242004118844134a353e5bf') in 0.000818 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 9
 ========================================================================
 Received Import Request.
   Time since last request: 0.000006 seconds.
-  path: Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (2).prefab
-  artifactKey: Guid(49185c323063f5340be2801b21bc3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Modules/Streets/1 Empty needed at every border/Street_Curve (2).prefab using Guid(49185c323063f5340be2801b21bc3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703b913574219f39dfbc4b531f3fdea2') in 0.003802 seconds
+  path: Assets/Modules/Streets/1 Border Space/Street_Curve 3.asset
+  artifactKey: Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_Curve 3.asset using Guid(1db282904387dc748b27a8dbdafbf515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288c83f24e1be5f897f524bd5774b461') in 0.000791 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000005 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_3Way_2 3.asset
+  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122bd4964d00ff210beea809c477577d') in 0.000928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.263 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.476 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (476ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (242ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2386.
+Memory consumption went from 103.1 MB to 103.1 MB.
+Total: 1.976400 ms (FindLiveObjects: 0.094600 ms CreateObjectMapping: 0.023400 ms MarkObjects: 1.830300 ms  DeleteObjects: 0.027700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.699814 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_Curve.asset
+  artifactKey: Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_Curve.asset using Guid(e87b82a4dc556de4d829583a5db746e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66503d688105e49e591278bfcf1e5e6') in 0.006355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_Straight 1.asset
+  artifactKey: Guid(fc1032878a4f5674d887fc53cafe44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_Straight 1.asset using Guid(fc1032878a4f5674d887fc53cafe44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cda3562b8e4743612e3a88dc2a5f39') in 0.000890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_Curve 1.asset
+  artifactKey: Guid(0b9a3f7a930821b45b5afcc1729bc10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_Curve 1.asset using Guid(0b9a3f7a930821b45b5afcc1729bc10d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a48fdbd21fb9ca8d4b7820a5a2e40f1') in 0.000972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000005 seconds.
+  path: Assets/Modules/Streets/1 Border Space/Street_3Way_2 3.asset
+  artifactKey: Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Border Space/Street_3Way_2 3.asset using Guid(8c3263aa9646e6145b753c7965b74311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283180c0f72bb2ff6d46ccd26a37d70a') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.263 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 746ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (118ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (485ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2389.
+Memory consumption went from 105.0 MB to 105.0 MB.
+Total: 2.407700 ms (FindLiveObjects: 0.189100 ms CreateObjectMapping: 0.053800 ms MarkObjects: 2.132100 ms  DeleteObjects: 0.032000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 669.218266 seconds.
+  path: Assets/Modules/Streets/1 Street
+  artifactKey: Guid(e253ce04061fdf146ac0184c5e3c1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street using Guid(e253ce04061fdf146ac0184c5e3c1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce4346ba7421aca807bb1dd489a639d') in 0.001522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.405488 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_3Way_2.asset
+  artifactKey: Guid(084853107975ddf46b6e3992c73694b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_3Way_2.asset using Guid(084853107975ddf46b6e3992c73694b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef040e3f223499876d458700caa1b8fa') in 0.007442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003091 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_4Way_2.asset
+  artifactKey: Guid(29e99ccb1f63ff04fb1a8bbe58734962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_4Way_2.asset using Guid(29e99ccb1f63ff04fb1a8bbe58734962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288c9e29894e48ba320b11b5f8589418') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Empty.asset
+  artifactKey: Guid(7a1efebabc43888468dc8c7e6648ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Empty.asset using Guid(7a1efebabc43888468dc8c7e6648ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f084f411234d89c74adf5422e14bf8e') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve 3.asset
+  artifactKey: Guid(92f8ed438f5975648a6c7c24aa4f2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve 3.asset using Guid(92f8ed438f5975648a6c7c24aa4f2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cc0e1d3606669701902ff920b87e7d') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve 2.asset
+  artifactKey: Guid(33cbfb102ecb08d4a9b345f6b96862f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve 2.asset using Guid(33cbfb102ecb08d4a9b345f6b96862f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c95f197f41adf758e9585514da35d6') in 0.000925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve.asset
+  artifactKey: Guid(dc79063b6ada9904f9287b1d435a3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve.asset using Guid(dc79063b6ada9904f9287b1d435a3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e382d0d17542d43070a5a0f3eb8b8a5') in 0.001160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.268 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 735ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2392.
+Memory consumption went from 107.0 MB to 106.9 MB.
+Total: 1.813700 ms (FindLiveObjects: 0.098600 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.658400 ms  DeleteObjects: 0.026300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
 AssetImportWorker is now disconnected from the server
