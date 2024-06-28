@@ -139,6 +139,7 @@ namespace LevelGeneration
             }
 
             // propagate changes to neighbours
+            // TODO propogate until no changes were made
             for (var i = 0; i < neighbours.Length; i++)
             {
                 if (neighbours[i] == null) continue;
