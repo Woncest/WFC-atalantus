@@ -109,8 +109,11 @@ namespace LevelGeneration
         /// </summary>
         private void ApplyInitialConstraints()
         {
-            StartGoalConstraint();
-            BorderOutsideConstraint();
+            //StartGoalConstraint();
+
+            //Include this if you want streets to avoid going outside the zone
+            
+            //BorderOutsideConstraint();
         }
 
         /// <summary>
