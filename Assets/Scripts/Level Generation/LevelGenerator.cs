@@ -100,13 +100,16 @@ namespace LevelGeneration
             }
 
             stopwatch.Stop();
-            if(!failed) Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+            //If failed do not print Time elapsed and do not Instantiate the cells, because the correct solution will be Instantiated n+1 failed attempts
+            if(!failed){
+                Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
 
-            // instantiate module game objects
-            foreach (var cell in cells)
-            {
-                var t = cell.transform;
-                Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
+                // instantiate module game objects
+                foreach (var cell in cells)
+                {
+                    var t = cell.transform;
+                    Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
+                }
             }
         }
 
