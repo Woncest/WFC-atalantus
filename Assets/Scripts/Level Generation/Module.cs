@@ -18,7 +18,11 @@ namespace LevelGeneration
             Open,
             BorderLeft,
             BorderRight,
-            BorderBoth
+            BorderBoth,
+            ClosedTop,
+            ClosedBottom,
+            ClosedLeft,
+            ClosedRight
         }
 
         /// <summary>
