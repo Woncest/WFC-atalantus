@@ -88,7 +88,12 @@ namespace LevelGeneration
                 else
                 {
                     // set a random module for this cell
-                    cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
+                    try{
+                        cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
+                    }catch(ArgumentOutOfRangeException e){
+                        Debug.Log("#Repeat     " + e);
+                        GenerateLevel();
+                    }
                 }
             }
 
@@ -112,7 +117,7 @@ namespace LevelGeneration
             //StartGoalConstraint();
 
             //Include this if you want streets to avoid going outside the zone
-            
+
             //BorderOutsideConstraint();
         }
 
