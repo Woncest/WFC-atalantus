@@ -22,7 +22,11 @@ namespace LevelGeneration
             ClosedTop,
             ClosedBottom,
             ClosedLeft,
-            ClosedRight
+            ClosedRight,
+            OpenTop,
+            OpenBottom,
+            OpenLeft,
+            OpenRight
         }
 
         /// <summary>

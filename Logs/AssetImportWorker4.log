@@ -605,3 +605,131 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 669.218266 seconds.
+  path: Assets/Modules/Streets/1 Street
+  artifactKey: Guid(e253ce04061fdf146ac0184c5e3c1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street using Guid(e253ce04061fdf146ac0184c5e3c1d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce4346ba7421aca807bb1dd489a639d') in 0.001522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.405488 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_3Way_2.asset
+  artifactKey: Guid(084853107975ddf46b6e3992c73694b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_3Way_2.asset using Guid(084853107975ddf46b6e3992c73694b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef040e3f223499876d458700caa1b8fa') in 0.007442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.003091 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_4Way_2.asset
+  artifactKey: Guid(29e99ccb1f63ff04fb1a8bbe58734962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_4Way_2.asset using Guid(29e99ccb1f63ff04fb1a8bbe58734962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288c9e29894e48ba320b11b5f8589418') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Empty.asset
+  artifactKey: Guid(7a1efebabc43888468dc8c7e6648ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Empty.asset using Guid(7a1efebabc43888468dc8c7e6648ab2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f084f411234d89c74adf5422e14bf8e') in 0.000920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve 3.asset
+  artifactKey: Guid(92f8ed438f5975648a6c7c24aa4f2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve 3.asset using Guid(92f8ed438f5975648a6c7c24aa4f2b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cc0e1d3606669701902ff920b87e7d') in 0.001030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve 2.asset
+  artifactKey: Guid(33cbfb102ecb08d4a9b345f6b96862f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve 2.asset using Guid(33cbfb102ecb08d4a9b345f6b96862f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c95f197f41adf758e9585514da35d6') in 0.000925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Modules/Streets/1 Street/Street_Curve.asset
+  artifactKey: Guid(dc79063b6ada9904f9287b1d435a3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modules/Streets/1 Street/Street_Curve.asset using Guid(dc79063b6ada9904f9287b1d435a3da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e382d0d17542d43070a5a0f3eb8b8a5') in 0.001160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.268 seconds
+Refreshing native plugins compatible for Editor in 2.16 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.469 seconds
+Domain Reload Profiling: 735ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (119ms)
+		LoadAssemblies (161ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (469ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (248ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1901 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (31.5 KB). Loaded Objects now: 2392.
+Memory consumption went from 107.0 MB to 106.9 MB.
+Total: 1.813700 ms (FindLiveObjects: 0.098600 ms CreateObjectMapping: 0.029900 ms MarkObjects: 1.658400 ms  DeleteObjects: 0.026300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
