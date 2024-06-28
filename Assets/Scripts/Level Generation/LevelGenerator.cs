@@ -72,6 +72,7 @@ namespace LevelGeneration
 
             // make sure the level fits the initial constraints
             ApplyInitialConstraints();
+            bool failed = false;
 
             // wave-function-collapse algorithm
             while (orderedCells.Count > 0)
@@ -92,14 +93,14 @@ namespace LevelGeneration
                         cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
                     }catch(ArgumentOutOfRangeException e){
                         Debug.Log("#Repeat     " + e);
+                        failed = true;
                         GenerateLevel();
                     }
                 }
             }
 
             stopwatch.Stop();
-            Debug.Log(
-                $"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+            if(!failed) Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
 
             // instantiate module game objects
             foreach (var cell in cells)
