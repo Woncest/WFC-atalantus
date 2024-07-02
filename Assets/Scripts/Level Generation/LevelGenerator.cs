@@ -80,6 +80,9 @@ namespace LevelGeneration
                 // get cell that is closest to being solved (can also already be solved)
                 var cell = orderedCells.GetFirst();
 
+                //TODO check if List is in order least possibilities -> most possibilities
+                //TODO if not Sort the List
+
                 if (cell.possibleModules.Count == 1)
                 {
                     // cell is already solved -> remove finished cell from heap
