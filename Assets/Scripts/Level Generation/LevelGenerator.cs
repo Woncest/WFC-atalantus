@@ -49,6 +49,7 @@ namespace LevelGeneration
             // Start the level generation process
             if (mainUI.totalAttempts < attempts)
             {
+                mainUI.cameraController.AdjustCamera(width, height);
                 GenerateLevel();
             }
         }
@@ -131,24 +132,19 @@ namespace LevelGeneration
                     Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
                 }
                 mainUI.RunSuceeded();
+            }else{
+                foreach (var cell in cells)
+                {
+                    var t = cell.transform;
+                    if(cell.possibleModules.Count == 0){
+                        cell.possibleModules.Add(startModule);
+                    }
+                    Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
+                }
             }
 
             // If there are remaining attempts, schedule the next generation run
-            if (mainUI.totalAttempts < attempts)
-            {
-                // Clear previous instantiated modules
-                foreach (var cell in cells)
-                {
-                    if (cell.transform.childCount > 0)
-                    {
-                        foreach (Transform child in cell.transform)
-                        {
-                            Destroy(child.gameObject);
-                        }
-                    }
-                }
-            }
-            else
+            if (mainUI.totalAttempts >= attempts)
             {
                 mainUI.cameraController.AdjustCamera(width, height);
                 Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");

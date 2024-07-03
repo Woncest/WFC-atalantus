@@ -1760,7 +1760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   width: 125
   height: 125
-  attempts: 125
+  attempts: 25
   cellPrefab: {fileID: 8990666960892848915, guid: f8fe006e9c14f724a80bb10dbe43dfee,
     type: 3}
   mainUI: {fileID: 570121729}
