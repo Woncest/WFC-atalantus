@@ -98,8 +98,14 @@ namespace LevelGeneration
                     }catch(ArgumentOutOfRangeException e){
                         Debug.Log("#Repeat     " + e);
                         failed = true;
-                        mainUI.RunFailed();
-                        GenerateLevel();
+                        if(mainUI.totalAttempts == attempts){
+                            mainUI.cameraController.AdjustCamera(width,height);
+                            Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+                        }
+                        if(mainUI.totalAttempts < attempts){
+                            mainUI.RunFailed();
+                            GenerateLevel();
+                        }
                     }
                 }
             }
@@ -107,14 +113,21 @@ namespace LevelGeneration
             stopwatch.Stop();
             //If failed do not print Time elapsed and do not Instantiate the cells, because the correct solution will be Instantiated n+1 failed attempts
             if(!failed){
-                Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
-                mainUI.RunSuceeded();
+                //Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
 
                 // instantiate module game objects
                 foreach (var cell in cells)
                 {
                     var t = cell.transform;
                     Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
+                }
+                if(mainUI.totalAttempts == attempts){
+                        mainUI.cameraController.AdjustCamera(width,height);
+                        Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+                }
+                if(mainUI.totalAttempts < attempts){
+                    mainUI.RunSuceeded();
+                    GenerateLevel();
                 }
             }
         }

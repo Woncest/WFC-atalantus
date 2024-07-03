@@ -21,6 +21,8 @@ namespace LevelGeneration
         /// </summary>
         public int height;
 
+        public int attempts;
+
         /// <summary>
         /// Cell prefab.
         /// </summary>

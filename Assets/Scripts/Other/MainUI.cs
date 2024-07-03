@@ -13,7 +13,7 @@ public class MainUI : MonoBehaviour
     public Text heightText;
     public Text rateText;
 
-    private int totalAttempts = 0;
+    public int totalAttempts = 0;
     private int successes = 0;
     private int failures = 0;
 
