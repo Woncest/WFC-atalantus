@@ -11,6 +11,30 @@ public class MainUI : MonoBehaviour
 
     public Text widthText;
     public Text heightText;
+    public Text rateText;
+
+    private int totalAttempts = 0;
+    private int successes = 0;
+    private int failures = 0;
+
+    public void RunSuceeded(){
+        totalAttempts++;
+        successes++;
+        SetRateText();
+    }
+
+    public void RunFailed(){
+        totalAttempts++;
+        failures++;
+        SetRateText();
+    }
+
+    private void SetRateText(){
+        float successRate = (totalAttempts > 0) ? (float)successes / totalAttempts * 100 : 0;
+        float failRate = (totalAttempts > 0) ? (float)failures / totalAttempts * 100 : 0;
+
+        rateText.text = "Total Attempts: " + totalAttempts + "\nSuccess Rate: " + successRate.ToString("F2") + "%\nFail Rate: " + failRate.ToString("F2") + "%";
+    }
 
     public void Generate()
     {

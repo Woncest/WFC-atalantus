@@ -13,6 +13,7 @@ namespace LevelGeneration
     /// </summary>
     public class LevelGenerator : GridGenerator
     {
+        public MainUI mainUI;
         /// <summary>
         /// The modules.
         /// </summary>
@@ -97,6 +98,7 @@ namespace LevelGeneration
                     }catch(ArgumentOutOfRangeException e){
                         Debug.Log("#Repeat     " + e);
                         failed = true;
+                        mainUI.RunFailed();
                         GenerateLevel();
                     }
                 }
@@ -106,6 +108,7 @@ namespace LevelGeneration
             //If failed do not print Time elapsed and do not Instantiate the cells, because the correct solution will be Instantiated n+1 failed attempts
             if(!failed){
                 Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+                mainUI.RunSuceeded();
 
                 // instantiate module game objects
                 foreach (var cell in cells)
