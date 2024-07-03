@@ -1,7 +1,7 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using Random = UnityEngine.Random;
@@ -42,9 +42,24 @@ namespace LevelGeneration
         [Tooltip("If set to -1 a random seed will be selected for every level generation.")]
         public int seed;
 
+        private bool isGenerating = false;
+
         private void Start()
         {
-            GenerateLevel();
+            // Start the level generation process
+            if (mainUI.totalAttempts < attempts)
+            {
+                GenerateLevel();
+            }
+        }
+
+        private void Update()
+        {
+            // Check if generation is not running and there are remaining attempts
+            if (!isGenerating && mainUI.totalAttempts < attempts)
+            {
+                GenerateLevel();
+            }
         }
 
         /// <summary>
@@ -52,6 +67,8 @@ namespace LevelGeneration
         /// </summary>
         public void GenerateLevel()
         {
+            isGenerating = true; // Mark generation as running
+
             RemoveGrid();
             GenerateGrid(this);
 
@@ -81,9 +98,6 @@ namespace LevelGeneration
                 // get cell that is closest to being solved (can also already be solved)
                 var cell = orderedCells.GetFirst();
 
-                //TODO check if List is in order least possibilities -> most possibilities
-                //TODO if not Sort the List
-
                 if (cell.possibleModules.Count == 1)
                 {
                     // cell is already solved -> remove finished cell from heap
@@ -93,43 +107,54 @@ namespace LevelGeneration
                 else
                 {
                     // set a random module for this cell
-                    try{
+                    try
+                    {
                         cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
-                    }catch(ArgumentOutOfRangeException e){
-                        Debug.Log("#Repeat     " + e);
+                    }
+                    catch (ArgumentOutOfRangeException)
+                    {
                         failed = true;
-                        if(mainUI.totalAttempts == attempts){
-                            mainUI.cameraController.AdjustCamera(width,height);
-                            Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
-                        }
-                        if(mainUI.totalAttempts < attempts){
-                            mainUI.RunFailed();
-                            GenerateLevel();
-                        }
+                        mainUI.RunFailed();
+                        break;
                     }
                 }
             }
 
             stopwatch.Stop();
-            //If failed do not print Time elapsed and do not Instantiate the cells, because the correct solution will be Instantiated n+1 failed attempts
-            if(!failed){
-                //Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
-
-                // instantiate module game objects
+            // If failed, do not print time elapsed and do not instantiate the cells, because the correct solution will be instantiated in n+1 failed attempts
+            if (!failed)
+            {
+                // Instantiate module game objects
                 foreach (var cell in cells)
                 {
                     var t = cell.transform;
                     Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
                 }
-                if(mainUI.totalAttempts == attempts){
-                        mainUI.cameraController.AdjustCamera(width,height);
-                        Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
-                }
-                if(mainUI.totalAttempts < attempts){
-                    mainUI.RunSuceeded();
-                    GenerateLevel();
+                mainUI.RunSuceeded();
+            }
+
+            // If there are remaining attempts, schedule the next generation run
+            if (mainUI.totalAttempts < attempts)
+            {
+                // Clear previous instantiated modules
+                foreach (var cell in cells)
+                {
+                    if (cell.transform.childCount > 0)
+                    {
+                        foreach (Transform child in cell.transform)
+                        {
+                            Destroy(child.gameObject);
+                        }
+                    }
                 }
             }
+            else
+            {
+                mainUI.cameraController.AdjustCamera(width, height);
+                Debug.Log($"Wave-function-collapse algorithm finished in {stopwatch.Elapsed.TotalMilliseconds}ms (Seed: {finalSeed})");
+            }
+
+            isGenerating = false; // Mark generation as not running
         }
 
         /// <summary>
