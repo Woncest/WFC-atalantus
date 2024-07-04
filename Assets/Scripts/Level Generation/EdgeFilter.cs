@@ -40,6 +40,7 @@
         /// <returns>True if the <see cref="Module"/> matches this filter.</returns>
         public bool CheckModule(Module module)
         {
+            //TODO switch tree to get out of the lists
             var edge = (_edgeDirection + 2) % 4;
             //TODO I think you can instead search through a list here
             var match = module.edgeConnections[edge] == _filterType;

@@ -120,6 +120,7 @@ namespace LevelGeneration
         /// Assigns this cell a specific <see cref="Module"/> removing others.
         /// </summary>
         /// <param name="module">The <see cref="Module"/>.</param>
+        //TODO have to use the Lists everywhere and not the edgdeConnections anymore
         public void SetModule(Module module)
         {
             possibleModules = new List<Module> {module};
