@@ -1758,25 +1758,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfae39ce192249ffbfadc4460ba8d0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 50
-  height: 50
-  attempts: 250
+  width: 25
+  height: 25
+  attempts: 1000
   cellPrefab: {fileID: 8990666960892848915, guid: f8fe006e9c14f724a80bb10dbe43dfee,
     type: 3}
   mainUI: {fileID: 570121729}
   modules:
-  - {fileID: 11400000, guid: 084853107975ddf46b6e3992c73694b7, type: 2}
-  - {fileID: 11400000, guid: 69fa4cf921e8708409b9a0cd374e2b6d, type: 2}
-  - {fileID: 11400000, guid: 2f4ede58afe409047a412fa3343a0fb8, type: 2}
-  - {fileID: 11400000, guid: 9032d4aa5b6b2a943af1a99c37719de5, type: 2}
-  - {fileID: 11400000, guid: 29e99ccb1f63ff04fb1a8bbe58734962, type: 2}
-  - {fileID: 11400000, guid: dc79063b6ada9904f9287b1d435a3da2, type: 2}
-  - {fileID: 11400000, guid: bdffc9dcd18816f4c9c61fd16f9ce59c, type: 2}
-  - {fileID: 11400000, guid: 33cbfb102ecb08d4a9b345f6b96862f3, type: 2}
-  - {fileID: 11400000, guid: 92f8ed438f5975648a6c7c24aa4f2b4c, type: 2}
-  - {fileID: 11400000, guid: 7a1efebabc43888468dc8c7e6648ab2c, type: 2}
-  - {fileID: 11400000, guid: 148ed5a1d82a0954c85c5d9884e1c46a, type: 2}
-  - {fileID: 11400000, guid: c2eb323a97c62bb4082f2cbcd9994030, type: 2}
+  - {fileID: 11400000, guid: dd07ecda6c164a44d923e6f1bad3417a, type: 2}
+  - {fileID: 11400000, guid: d98cc1c3e44d4024984fb7051e771493, type: 2}
+  - {fileID: 11400000, guid: dcf6835c0fa45f243b2e5c8b1e3ce005, type: 2}
+  - {fileID: 11400000, guid: 8d9ceac292432e249a5d5711c5c8df87, type: 2}
+  - {fileID: 11400000, guid: 29c1a0c49ac24e04bbf627d4f08a1510, type: 2}
+  - {fileID: 11400000, guid: 5d5cbfed81839d343820607bbfa4ad34, type: 2}
+  - {fileID: 11400000, guid: 88c63c1ca4f9c864fa120bfd34f304af, type: 2}
+  - {fileID: 11400000, guid: b01a6484598994040b986bfa55d6495e, type: 2}
+  - {fileID: 11400000, guid: 34301b29fa1714840a9dcde07d40d8cf, type: 2}
+  - {fileID: 11400000, guid: a2c0f93eaacac5d4eb32da0027725289, type: 2}
+  - {fileID: 11400000, guid: 1707c086f0aeb234785a454a843cfa2c, type: 2}
+  - {fileID: 11400000, guid: a95be040ff1c69b42bd7ea037467e623, type: 2}
   startModule: {fileID: 11400000, guid: d2c4c2accc7bed64aa88630208ff2706, type: 2}
   goalModule: {fileID: 11400000, guid: d2c4c2accc7bed64aa88630208ff2706, type: 2}
   seed: -1
