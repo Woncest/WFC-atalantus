@@ -41,5 +41,10 @@ namespace LevelGeneration
         /// [bottom, right, top, left]
         /// </summary>
         public EdgeConnectionTypes[] edgeConnections = new EdgeConnectionTypes[4];
+
+        public List<GameObject> prefabsUp;
+        public List<GameObject> prefabsLeft;
+        public List<GameObject> prefabsBottom;
+        public List<GameObject> prefabsRight;
     }
 }
