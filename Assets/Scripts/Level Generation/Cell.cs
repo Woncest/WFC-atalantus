@@ -121,6 +121,7 @@ namespace LevelGeneration
         /// </summary>
         /// <param name="module">The <see cref="Module"/>.</param>
         //TODO have to use the Lists everywhere and not the edgdeConnections anymore
+        //TODO thonk about if the List mentions tags/tiles that are allowed and combine it with edgeConnections for faster tileset creations
         public void SetModule(Module module)
         {
             possibleModules = new List<Module> {module};
