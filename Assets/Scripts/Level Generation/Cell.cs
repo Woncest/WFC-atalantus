@@ -74,6 +74,10 @@ namespace LevelGeneration
             {
                 RemoveModule(removingModules[i]);
             }
+
+            //After this check if things that specific tile set does not allow is still in it ?
+            //also send over List to compare to
+            //this is called from another cell, send the list from the previous cell
         }
 
         /// <summary>
