@@ -130,6 +130,7 @@ namespace LevelGeneration
             // update item on the heap
             levelGenerator.orderedCells.UpdateItem(this);
 
+            //DOES NOT NEED TO BE MODIFIED
             // check if it fits to already set neighbour cells
             for (var i = 0; i < neighbours.Length; i++)
             {
@@ -140,7 +141,7 @@ namespace LevelGeneration
                         $"Setting module {module} would not fit already set neighbour {neighbours[i].gameObject}!",
                         gameObject);
             }
-
+            
             // propagate changes to neighbours
             // TODO propogate until no changes were made
             for (var i = 0; i < neighbours.Length; i++)
