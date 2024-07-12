@@ -43,6 +43,7 @@ namespace LevelGeneration
             possibleModules = new List<Module>();
         }
 
+        //DOES NOT NEED TO BE MODIFIED
         public void PopulateCell()
         {
             // at the beginning every module is possible

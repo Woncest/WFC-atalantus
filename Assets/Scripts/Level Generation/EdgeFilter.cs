@@ -42,7 +42,7 @@
         {
             //TODO switch tree to get out of the lists
             var edge = (_edgeDirection + 2) % 4;
-            //TODO I think you can instead search through a list here
+            //TODO thonk if you have to search through possible neighbours here or the step before
             var match = module.edgeConnections[edge] == _filterType;
 
             return _isInclusive ? !match : match;
