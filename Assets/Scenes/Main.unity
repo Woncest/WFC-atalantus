@@ -1758,8 +1758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfae39ce192249ffbfadc4460ba8d0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 4
-  height: 4
+  width: 9
+  height: 9
   attempts: 10000
   cellPrefab: {fileID: 8990666960892848915, guid: f8fe006e9c14f724a80bb10dbe43dfee,
     type: 3}
