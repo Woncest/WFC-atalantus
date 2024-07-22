@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -437,8 +437,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2a510000
-      m_LastClickedID: 20778
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -997,7 +997,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Level Generation
+    - Assets/Prefabs/Modules/Streets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1005,16 +1005,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Level Generation
+  - Assets/Prefabs/Modules/Streets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\ffiessinger\Documents\GitHub\WFC-atalantus
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 85}
-    m_SelectedIDs: b6520000
-    m_LastClickedID: 21174
-    m_ExpandedIDs: 00000000925200009452000096520000985200009a52000000ca9a3bffffff7f
+    m_SelectedIDs: b2520000
+    m_LastClickedID: 21170
+    m_ExpandedIDs: 00000000925200009452000096520000985200009a520000aa52000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
