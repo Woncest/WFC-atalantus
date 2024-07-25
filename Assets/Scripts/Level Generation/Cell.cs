@@ -49,7 +49,9 @@ namespace LevelGeneration
             // at the beginning every module is possible
             for (var i = 0; i < levelGenerator.modules.Count; i++)
             {
-                possibleModules.Add(levelGenerator.modules[i]);
+                //possibleModules.Add(levelGenerator.modules[i]);
+                Module copy = Instantiate(levelGenerator.modules[i]);
+                possibleModules.Add(copy);
             }
         }
 

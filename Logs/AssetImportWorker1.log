@@ -230,3 +230,8 @@ Received Import Request.
 Start importing Assets/Modules/Streets/Normal/Street_Empty.asset using Guid(a2c0f93eaacac5d4eb32da0027725289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b16f308bf2935de588bc92a0b23e315') in 0.002866 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 82
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Der E/A-Vorgang wurde wegen eines Threadendes oder einer Anwendungsanforderung abgebrochen.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
