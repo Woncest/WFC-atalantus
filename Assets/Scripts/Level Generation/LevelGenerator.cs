@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using UnityEngine;
 using Debug = UnityEngine.Debug;
 using Random = UnityEngine.Random;
@@ -111,6 +112,7 @@ namespace LevelGeneration
                     try
                     {
                         cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
+                        AdaptNeighboursFromCellToPossibleFromTileSet(cell);
                     }
                     catch (ArgumentOutOfRangeException)
                     {
@@ -151,6 +153,59 @@ namespace LevelGeneration
             }
 
             isGenerating = false; // Mark generation as not running
+        }
+
+        private void AdaptNeighboursFromCellToPossibleFromTileSet(Cell cell)
+        {
+            // Iterate through each neighbour of the cell
+            for (int i = 0; i < cell.neighbours.Length; i++)
+            {
+                var neighbour = cell.neighbours[i];
+
+                // If the neighbour is null, skip to the next one
+                if (neighbour == null)
+                    continue;
+
+                // Determine the correct prefab list based on the neighbour's position
+                List<GameObject> relevantPrefabs = null;
+                switch (i)
+                {
+                    case 0:
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsUp).ToList();
+                        break;
+                    case 1:
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsLeft).ToList();
+                        break;
+                    case 2:
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsBottom).ToList();
+                        break;
+                    case 3:
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsRight).ToList();
+                        break;
+                }
+
+                // Create a list to store the modules to be removed
+                List<Module> modulesToRemove = new List<Module>();
+
+                // Iterate through each possible module of the neighbour
+                foreach (var neighbourModule in neighbour.possibleModules)
+                {
+                    // Check if this neighbour's module's GameObject is not in the relevant prefabs list
+                    bool matchFound = relevantPrefabs.Any(prefab => prefab == neighbourModule.moduleGO);
+
+                    // If no match was found, add this module to the removal list
+                    if (!matchFound)
+                    {
+                        modulesToRemove.Add(neighbourModule);
+                    }
+                }
+
+                // Remove the non-matching modules from the neighbour's possibleModules list
+                foreach (var module in modulesToRemove)
+                {
+                    neighbour.possibleModules.Remove(module);
+                }
+            }
         }
 
         /// <summary>
