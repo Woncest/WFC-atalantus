@@ -105,14 +105,15 @@ namespace LevelGeneration
                     // cell is already solved -> remove finished cell from heap
                     cell.isFinal = true;
                     orderedCells.RemoveFirst();
+                    AdaptNeighboursFromCellToPossibleFromTileSet(cell);
                 }
                 else
                 {
                     // set a random module for this cell
                     try
                     {
-                        cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
                         AdaptNeighboursFromCellToPossibleFromTileSet(cell);
+                        cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
                     }
                     catch (ArgumentOutOfRangeException)
                     {
@@ -163,7 +164,7 @@ namespace LevelGeneration
                 var neighbour = cell.neighbours[i];
 
                 // If the neighbour is null, skip to the next one
-                if (neighbour == null)
+                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1)
                     continue;
 
                 // Determine the correct prefab list based on the neighbour's position
