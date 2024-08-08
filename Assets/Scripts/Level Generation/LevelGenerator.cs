@@ -45,6 +45,8 @@ namespace LevelGeneration
 
         private bool isGenerating = false;
 
+        bool failed = false;
+
         private void Start()
         {
             // Start the level generation process
@@ -92,13 +94,14 @@ namespace LevelGeneration
 
             // make sure the level fits the initial constraints
             ApplyInitialConstraints();
-            bool failed = false;
 
             // wave-function-collapse algorithm
             while (orderedCells.Count > 0)
             {
                 // get cell that is closest to being solved (can also already be solved)
+                orderedCells = SortOrderedCells(orderedCells);
                 var cell = orderedCells.GetFirst();
+
 
                 if (cell.possibleModules.Count == 1)
                 {
@@ -112,7 +115,6 @@ namespace LevelGeneration
                     // set a random module for this cell
                     try
                     {
-                        AdaptNeighboursFromCellToPossibleFromTileSet(cell);
                         cell.SetModule(cell.possibleModules[Random.Range(0, cell.possibleModules.Count)]);
                     }
                     catch (ArgumentOutOfRangeException)
@@ -164,8 +166,9 @@ namespace LevelGeneration
                 var neighbour = cell.neighbours[i];
 
                 // If the neighbour is null, skip to the next one
-                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1)
+                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1){
                     continue;
+                }                    
 
                 // Determine the correct prefab list based on the neighbour's position
                 List<GameObject> relevantPrefabs = null;
@@ -189,10 +192,18 @@ namespace LevelGeneration
                 List<Module> modulesToRemove = new List<Module>();
 
                 // Iterate through each possible module of the neighbour
+                bool matchFoundAllTogether = false;
                 foreach (var neighbourModule in neighbour.possibleModules)
                 {
+                    if(neighbour.possibleModules.Count - modulesToRemove.Count <= 1 && !matchFoundAllTogether){
+                        continue;
+                    }
+
                     // Check if this neighbour's module's GameObject is not in the relevant prefabs list
                     bool matchFound = relevantPrefabs.Any(prefab => prefab == neighbourModule.moduleGO);
+                    if(matchFound){
+                        matchFoundAllTogether = true;
+                    }
 
                     // If no match was found, add this module to the removal list
                     if (!matchFound)
@@ -270,6 +281,32 @@ namespace LevelGeneration
             } while (goalCell == startCell);
 
             goalCell.SetModule(goalModule);
+        }
+
+        public Heap<Cell> SortOrderedCells(Heap<Cell> heap)
+        {
+            List<Cell> sortedList = new List<Cell>();
+
+            // Extract all elements from the heap
+            while (heap.Count > 0)
+            {
+                sortedList.Add(heap.GetFirst());
+                heap.RemoveFirst();
+            }
+
+            // Sort the list based on possibleModules.Count
+            sortedList.Sort((cell1, cell2) => cell1.possibleModules.Count.CompareTo(cell2.possibleModules.Count));
+
+            // Create a new heap with the sorted elements
+            Heap<Cell> sortedHeap = new Heap<Cell>(sortedList.Count);
+
+            // Add sorted elements back to the new heap
+            foreach (var cell in sortedList)
+            {
+                sortedHeap.Add(cell);
+            }
+
+            return sortedHeap; // Return the sorted heap
         }
     }
 }
