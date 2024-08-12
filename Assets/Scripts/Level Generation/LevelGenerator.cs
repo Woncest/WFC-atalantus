@@ -165,25 +165,85 @@ namespace LevelGeneration
             {
                 var neighbour = cell.neighbours[i];
 
-                // If the neighbour is null, skip to the next one
-                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1){
+                // If the neighbour is null, already final, or has only one possible module, skip to the next one
+                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1)
+                {
                     continue;
-                }                    
+                }
 
                 // Determine the correct prefab list based on the neighbour's position
                 List<GameObject> relevantPrefabs = null;
                 switch (i)
                 {
-                    case 0:
+                    case 0: // Up
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsUp).ToList();
+                        ApplyFilterToNeighbour(neighbour, new int[] { 1, 3 });
+                        break;
+                    case 1: // Left
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsLeft).ToList();
+                        ApplyFilterToNeighbour(neighbour, new int[] { 0, 2 });
+                        break;
+                    case 2: // Bottom
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsBottom).ToList();
+                        ApplyFilterToNeighbour(neighbour, new int[] { 1, 3 });
+                        break;
+                    case 3: // Right
+                        relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsRight).ToList();
+                        ApplyFilterToNeighbour(neighbour, new int[] { 0, 2 });
+                        break;
+                }
+
+                // Create a list to store the modules to be removed
+                List<Module> modulesToRemove = new List<Module>();
+
+                // Iterate through each possible module of the neighbour
+                foreach (var neighbourModule in neighbour.possibleModules)
+                {
+                    // Check if this neighbour's module's GameObject is not in the relevant prefabs list
+                    bool matchFound = relevantPrefabs.Any(prefab => prefab == neighbourModule.moduleGO);
+
+                    // If no match was found, add this module to the removal list
+                    if (!matchFound)
+                    {
+                        modulesToRemove.Add(neighbourModule);
+                    }
+                }
+
+                // Remove the non-matching modules from the neighbour's possibleModules list
+                foreach (var module in modulesToRemove)
+                {
+                    neighbour.possibleModules.Remove(module);
+                }
+            }
+        }
+
+        private void ApplyFilterToNeighbour(Cell cell, int[] checkIndices)
+        {
+            // Iterate through the specified neighbours of the cell
+            for (int i = 0; i < checkIndices.Length; i++)
+            {
+                var neighbour = cell.neighbours[checkIndices[i]];
+
+                // If the neighbour is null, already final, or has only one possible module, skip to the next one
+                if (neighbour == null || neighbour.isFinal || neighbour.possibleModules.Count <= 1)
+                {
+                    continue;
+                }
+
+                // Determine the correct prefab list based on the neighbour's position
+                List<GameObject> relevantPrefabs = null;
+                switch (checkIndices[i])
+                {
+                    case 0: // Up
                         relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsUp).ToList();
                         break;
-                    case 1:
+                    case 1: // Left
                         relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsLeft).ToList();
                         break;
-                    case 2:
+                    case 2: // Bottom
                         relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsBottom).ToList();
                         break;
-                    case 3:
+                    case 3: // Right
                         relevantPrefabs = cell.possibleModules.SelectMany(module => module.prefabsRight).ToList();
                         break;
                 }
@@ -192,18 +252,10 @@ namespace LevelGeneration
                 List<Module> modulesToRemove = new List<Module>();
 
                 // Iterate through each possible module of the neighbour
-                bool matchFoundAllTogether = false;
                 foreach (var neighbourModule in neighbour.possibleModules)
                 {
-                    if(neighbour.possibleModules.Count - modulesToRemove.Count <= 1 && !matchFoundAllTogether){
-                        continue;
-                    }
-
                     // Check if this neighbour's module's GameObject is not in the relevant prefabs list
                     bool matchFound = relevantPrefabs.Any(prefab => prefab == neighbourModule.moduleGO);
-                    if(matchFound){
-                        matchFoundAllTogether = true;
-                    }
 
                     // If no match was found, add this module to the removal list
                     if (!matchFound)
