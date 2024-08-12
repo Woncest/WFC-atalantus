@@ -38,6 +38,8 @@ namespace LevelGeneration
 
         public int HeapIndex { get; set; }
 
+        private int counterForNoStackOverflow = 0;
+
         private void Awake()
         {
             possibleModules = new List<Module>();
@@ -118,9 +120,13 @@ namespace LevelGeneration
                 {
                     // populate edge changes to neighbour cell
                     var edgeFilter = new EdgeFilter(j, edgeType, false);
-                    neighbours[j].FilterCell(edgeFilter);
+                    if(counterForNoStackOverflow <= 2){
+                        neighbours[j].FilterCell(edgeFilter);
+                        counterForNoStackOverflow++;
+                    }
                 }
             }
+            counterForNoStackOverflow = 0;
         }
 
         /// <summary>
