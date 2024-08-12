@@ -147,6 +147,7 @@ namespace LevelGeneration
                     Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
                 }
                 mainUI.RunFailed();
+                failed = false;
             }
 
             // If there are remaining attempts, schedule the next generation run
