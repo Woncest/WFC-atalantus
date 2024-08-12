@@ -1758,8 +1758,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfae39ce192249ffbfadc4460ba8d0ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 10
-  height: 10
+  width: 25
+  height: 25
   attempts: 1
   cellPrefab: {fileID: 8990666960892848915, guid: f8fe006e9c14f724a80bb10dbe43dfee,
     type: 3}
@@ -1777,8 +1777,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9062fd4a3ab7c3c4e89120686c136671, type: 2}
   - {fileID: 11400000, guid: 27c1c9ff77846b74f9c394094f2989c9, type: 2}
   - {fileID: 11400000, guid: 1b4b23153398a404e994722f749726e5, type: 2}
-  startModule: {fileID: 11400000, guid: d2c4c2accc7bed64aa88630208ff2706, type: 2}
-  goalModule: {fileID: 11400000, guid: d2c4c2accc7bed64aa88630208ff2706, type: 2}
+  startModule: {fileID: 11400000, guid: dd07ecda6c164a44d923e6f1bad3417a, type: 2}
+  goalModule: {fileID: 11400000, guid: dd07ecda6c164a44d923e6f1bad3417a, type: 2}
   seed: -1
 --- !u!4 &1090563858
 Transform:

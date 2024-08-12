@@ -120,7 +120,6 @@ namespace LevelGeneration
                     catch (ArgumentOutOfRangeException)
                     {
                         failed = true;
-                        mainUI.RunFailed();
                         break;
                     }
                 }
@@ -145,8 +144,9 @@ namespace LevelGeneration
                         cell.possibleModules.Add(startModule);
                     }
                     //better but after it does not update Successes anymore and you cant see it
-                    Instantiate(cell.defaultModule, t.position, Quaternion.identity, t);
+                    Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
                 }
+                mainUI.RunFailed();
             }
 
             // If there are remaining attempts, schedule the next generation run
