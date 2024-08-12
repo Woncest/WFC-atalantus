@@ -26,6 +26,8 @@ namespace LevelGeneration
         /// </summary>
         public List<Module> possibleModules;
 
+        public Module defaultModule;
+
         /// <summary>
         /// The adjacent <see cref="Cell"/> objects inside the grid.
         /// Element can be null if the cell is on the grid`s edge.
@@ -50,6 +52,9 @@ namespace LevelGeneration
             for (var i = 0; i < levelGenerator.modules.Count; i++)
             {
                 possibleModules.Add(levelGenerator.modules[i]);
+                if(defaultModule == null){
+                    defaultModule = levelGenerator.modules[i];
+                }
                 //Module copy = Instantiate(levelGenerator.modules[i]);
                 //possibleModules.Add(copy);
             }

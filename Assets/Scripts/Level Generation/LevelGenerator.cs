@@ -144,7 +144,8 @@ namespace LevelGeneration
                     if(cell.possibleModules.Count == 0){
                         cell.possibleModules.Add(startModule);
                     }
-                    Instantiate(cell.possibleModules[0].moduleGO, t.position, Quaternion.identity, t);
+                    //better but after it does not update Successes anymore and you cant see it
+                    Instantiate(cell.defaultModule, t.position, Quaternion.identity, t);
                 }
             }
 
